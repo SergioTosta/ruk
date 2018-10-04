@@ -1,3 +1,9 @@
+import * as images from "./DataImages";
+import * as audios from "./DataAudios";
+
+// Audio
+// import Incrivel from "../media/audio/Incrivel.mp3";
+
 class Data {
   static data() {
     return [
@@ -5,216 +11,216 @@ class Data {
         key: "incrivel",
         data: {
           title: "É incrível!",
-          image: "/img/incrivel.jpg",
-          audio: "/audio/Incrivel.mp3"
+          image: images.incrivel,
+          audio: audios.incrivel
         }
       },
       {
         key: "sabiaNao",
         data: {
           title: "Sabia não...",
-          image: "/img/sabiaNao.jpg",
-          audio: "/audio/SabiaNao.mp3"
+          image: images.sabiaNao,
+          audio: audios.sabiaNao
         }
       },
       {
         key: "queDelicia",
         data: {
           title: "Ai que delícia!",
-          image: "/img/queDelicia.jpg",
-          audio: "/audio/AiQueDelicia.mp3"
+          image: images.queDelicia,
+          audio: audios.aiQueDelicia
         }
       },
       {
         key: "coragi",
         data: {
           title: "Aqui tem coragi!",
-          image: "/img/coragi.jpg",
-          audio: "/audio/AquiTemCoragi.mp3"
+          image: images.coragi,
+          audio: audios.aquiTemCoragi
         }
       },
       {
         key: "arcoIro",
         data: {
           title: "Arco Iro",
-          image: "/img/arcoIro.jpg",
-          audio: "/audio/ArcoIro.mp3"
+          image: images.arcoIro,
+          audio: audios.arcoIro
         }
       },
       {
         key: "bola",
         data: {
           title: "Desenha uma bola!",
-          image: "/img/bola.jpg",
-          audio: "/audio/Bola.mp3"
+          image: images.bola,
+          audio: audios.bola
         }
       },
       {
         key: "calcinha",
         data: {
           title: "Desenha uma calcinha!",
-          image: "/img/calcinha.jpg",
-          audio: "/audio/Calcinha.mp3"
+          image: images.calcinha,
+          audio: audios.calcinha
         }
       },
       {
         key: "quadro",
         data: {
           title: "Desenha no quadro né?",
-          image: "/img/quadro.jpg",
-          audio: "/audio/DesenhaNoQuadro.mp3"
+          image: images.quadro,
+          audio: audios.desenhaNoQuadro
         }
       },
       {
         key: "desseJeito",
         data: {
           title: "É desse jeito!!!",
-          image: "/img/desseJeito.jpg",
-          audio: "/audio/DesseJeito.mp3"
+          image: images.desseJeito,
+          audio: audios.desseJeito
         }
       },
       {
         key: "verdade",
         data: {
           title: "É a verdade!",
-          image: "/img/verdade.jpg",
-          audio: "/audio/EAVerdade.mp3"
+          image: images.verdade,
+          audio: audios.eAVerdade
         }
       },
       {
         key: "ezatamentchy",
         data: {
           title: "Ezatamentchy",
-          image: "/img/ezatamentchy.jpg",
-          audio: "/audio/Ezatamentchy.mp3"
+          image: images.ezatamentchy,
+          audio: audios.ezatamentchy
         }
       },
       {
         key: "fro",
         data: {
           title: "Desenha uma frô!",
-          image: "/img/fro.jpg",
-          audio: "/audio/Fro.mp3"
+          image: images.fro,
+          audio: audios.fro
         }
       },
       {
         key: "guda",
         data: {
           title: "Guda",
-          image: "/img/guda.jpg",
-          audio: "/audio/Guda.mp3"
+          image: images.guda,
+          audio: audios.guda
         }
       },
       {
         key: "inhaaaauuuaaaauuu",
         data: {
           title: "INHAAAUAAU!",
-          image: "/img/inhauau.jpg",
-          audio: "/audio/INHAAAAUUAAAAUU.mp3"
+          image: images.inhauau,
+          audio: audios.iNHAAAAUUAAAAUU
         }
       },
       {
         key: "numSei",
         data: {
           title: "Num sei!",
-          image: "/img/numSei.jpg",
-          audio: "/audio/NumSei.mp3"
+          image: images.numSei,
+          audio: audios.numSei
         }
       },
       {
         key: "objeto",
         data: {
           title: "Objeto que vocês sabem!",
-          image: "/img/objeto.jpg",
-          audio: "audio/Objeto.mp3"
+          image: images.objeto,
+          audio: audios.objeto
         }
       },
       {
         key: "queD+",
         data: {
           title: "Que D+!",
-          image: "/img/D+.jpg",
-          audio: "/audio/QueDemais.mp3"
+          image: images.demais,
+          audio: audios.queDemais
         }
       },
       {
         key: "queMerda",
         data: {
           title: "Que merda, hein?",
-          image: "/img/queMerda.jpg",
-          audio: "/audio/QueMerda.mp3"
+          image: images.queMerda,
+          audio: audios.queMerda
         }
       },
       {
         key: "raciocinio",
         data: {
           title: "Raçocino",
-          image: "/img/raciocinio.jpg",
-          audio: "audio/Raciocinio.mp3"
+          image: images.raciocinio,
+          audio: audios.raciocinio
         }
       },
       {
         key: "rah",
         data: {
           title: "RAH!",
-          image: "/img/rah.jpg",
-          audio: "/audio/RAH.mp3"
+          image: images.rah,
+          audio: audios.rAH
         }
       },
       {
         key: "violao",
         data: {
           title: "Violão",
-          image: "/img/violao.jpg",
-          audio: "/audio/Violao.mp3"
+          image: images.violao,
+          audio: audios.violao
         }
       },
       {
         key: "vaca",
         data: {
           title: "É um boi?",
-          image: "/img/vaca.jpg",
-          audio: "/audio/Vaca.mp3"
+          image: images.vaca,
+          audio: audios.vaca
         }
       },
       {
         key: "hojeNaoHojeSim",
         data: {
           title: "Hoje não, Hoje Sim...",
-          image: "/img/hojeNao.jpg",
-          audio: "/audio/HojeNaoHojeSim.mp3"
+          image: images.hojeNao,
+          audio: audios.hojeNaoHojeSim
         }
       },
       {
         key: "agoraEuEntendi",
         data: {
           title: "Agora eu entendi!",
-          image: "/img/agoraEuEntendi.jpg",
-          audio: "/audio/AgoraEuEntendi.mp3"
+          image: images.agoraEuEntendi,
+          audio: audios.agoraEuEntendi
         }
       },
       {
         key: "voceEBurroCara",
         data: {
           title: "Você é burro, cara!",
-          image: "/img/voceEBurroCara.jpg",
-          audio: "/audio/VoceEBurroCara.mp3"
+          image: images.voceEBurroCara,
+          audio: audios.voceEBurroCara
         }
       },
       {
         key: "naoConsigoGravar",
         data: {
           title: "Não consigo gravar...",
-          image: "/img/naoConsigoGravar.jpg",
-          audio: "/audio/NaoConsigoGravar.mp3"
+          image: images.naoConsigoGravar,
+          audio: audios.naoConsigoGravar
         }
       },
       {
         key: "maisBurroQueParece",
         data: {
           title: "Mais burro que parece...",
-          image: "/img/MaisBurroQueParece.jpg",
-          audio: "/audio/MaisBurroQueParece.mp3"
+          image: images.maisBurroQueParece,
+          audio: audios.maisBurroQueParece
         }
       }
     ];

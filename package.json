@@ -2,7 +2,7 @@
   "name": "ruk",
   "version": "1.0.0",
   "private": true,
-  "homepage": "http://sergiotosta.github.io/ruk",
+  "homepage": "http://sergiotosta.github.io/ruk/",
   "dependencies": {
     "bootstrap": "^4.1.3",
     "react": "^16.5.2",
